@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+body
+{
+
+  padding:0px;
+  margin: 0px;
+}
+
+div.prim {
+    background-color: #ffff0063;
+    height: 500px;
+    width: 500px;
+    position: fixed;
+      top: 50%;
+      left: 50%;
+      margin-left: -250px;
+      margin-top: -250px;
+}
+div.seg:first-child
+{
+  background-color: red;
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+div.ter:nth-child(2)
+{
+  background-color: orange;
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  left: 0px;
+  top:  0px;
+}
+div.cuar:nth-child(3)
+{
+  background-color: green;
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  left: 0px;
+  bottom:  0px;
+}
+div.quin:nth-child(4)
+{
+  background-color: blue;
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  right:  0px;
+  bottom:  0px;
+}
+
+div.prim:hover .seg,
+div.prim:hover .ter,
+div.prim:hover .cuar,
+div.prim:hover .quin {
+
+    position: fixed;
+}
+
+</style>
+</head>
+  <body>
+
+
+<div class="prim">
+<div class="seg"></div>
+<div class="ter"></div>
+<div class="cuar"></div>
+<div class="quin"></div></div>
+
+
+</body>
+</html>
